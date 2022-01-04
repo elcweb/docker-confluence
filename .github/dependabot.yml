@@ -4,12 +4,10 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
 
   # Enable version updates for Docker
   - package-ecosystem: "docker"
-    # Look for a `Dockerfile` in the `root` directory
-    directory: "/8.0/apache/"
-    # Check for updates once a week
+    directory: "/7.12/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
