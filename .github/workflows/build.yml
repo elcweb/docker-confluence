@@ -2,11 +2,11 @@ name: Docker-Build
 
 on:
   push:
-    branches: [ main, ci ]
+    branches: [ main ]
     tags:
       - '*'
   schedule:
-    - cron: "0 0 * * 0" # every week
+    - cron: "0 0 1 * *" # every month
 
 jobs:
   build:
