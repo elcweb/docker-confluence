@@ -1,4 +1,4 @@
-FROM atlassian/confluence:7.12.2
+FROM atlassian/confluence:7.17.1
 
 ENV MYSQL_VERSION 5.1.49
 ENV MYSQL_DRIVER_DOWNLOAD_URL https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-${MYSQL_VERSION}.tar.gz
